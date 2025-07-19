@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" class="light">
+<head>
+    <meta charset="UTF-8">
+    <title>TaskPulse - Your To-Do Powerhouse</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>TaskPulse ⚡</h1>
+        <button id="themeToggle">Toggle Theme</button>
+    </header>
+    
+    <main>
+        <section id="add-task">
+            <input type="text" id="taskText" placeholder="What's your task?">
+            <input type="date" id="taskDate">
+            <input type="time" id="taskTime">
+            <button id="addBtn">Add Task</button>
+        </section>
+        
+        <section id="task-list">
+            <h2>Upcoming Tasks</h2>
+            <ul id="upcomingTasks"></ul>
+            <h2>Completed Tasks</h2>
+            <ul id="completedTasks"></ul>
+        </section>
+    </main>
+    
+    <script src="app.js"></script>
+</body>
+</html>
